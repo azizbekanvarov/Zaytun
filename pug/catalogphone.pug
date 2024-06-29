@@ -1,0 +1,99 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/scss/catalogphone.css")
+        title Zaytun 
+    body 
+        nav 
+            div.nav__half
+                h1.nav__logo zaytun  
+                div.nav__language 
+                    p.rus Рус
+                    p.uzb O'zb
+                div 
+                    input(type="text" placeholder="Что вас интересует?")
+                    button Найти
+            img(src="/Assets/favorite.png", alt="")
+            img(src="/Assets/cart.png", alt="")
+            img(src="/assets/cart-1.png", alt="")
+        section.katalog  
+            div 
+                img(width="24" height="24" src="https://img.icons8.com/material-sharp/24/menu--v1.png" alt="menu--v1")
+                h4 Каталог товаров   
+            div 
+                p Продукты
+                p Одежда и обувь
+                p Электроника
+                p Для дома
+                p Спорт
+                p Дети
+                p Книги
+                p Бренды
+                p Зоо
+                p Компьютеры
+                p Здоровье
+                p Ремонт
+        section.korzina
+            h2 Корзина  
+        section.hero
+            img(style="margin-left:-30px;" width="140" height="140" src="https://img.icons8.com/ios/100/dae0e5/shopping-cart--v1.png" alt="shopping-cart--v") 
+            div 
+                h1 В корзине пусто!
+                h5 Начните добавлять товары в корзину  
+                button Найти товары
+        section.cards 
+            div.card__title
+                h1 Рекомендуем к покупке    
+                div(style="width:100%;display: flex; justify-content: space-between;") 
+                    p Товары из категории 
+                        span(style="color:#FFAE00;") Электроника 
+                    p(style="color:#FFAE00;") Посмотреть все  
+            .card 
+                .cart 
+                    img(width="90%" src="https://s3-alpha-sig.figma.com/img/e7b9/5106/8ae46413e052dfe6c9555202d46c3e91?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClotaiHDHkpvR9Xe3jzIkSe-Kn-6BTFEUQ8AgHoP0-JM205jdKqmFpaR6Tz88JBnKuFuiFMKH3tFhiryrFok28B9KVkchR0XZZycEZFAF3SE2cmK7aFW8s2ILAV5AKqub~e~NjxJpI4iqrvuesXhdb6O~0B-jq3jtC-iaaQwrCNYY3b3nUREaHKZV-5vFRiwrUokmM1v6picag5oeNTE~IbvgAlvAxql8sLsSQnNDqt9qoGrcxbwdG0EfVUuLBtSyf9z-AX~uC0Ez-RAnJn5IId9UIE7OIPK~S6lPgW2i3IK82i87vTMKZf0CtuKc0Pw4Tv9RKGl~jLstKjEuKs1pw__", alt="")
+                    img(width="215px" src="/assets/info.png", alt="")
+                .cart 
+                    img(width="90%" src="https://s3-alpha-sig.figma.com/img/e7b9/5106/8ae46413e052dfe6c9555202d46c3e91?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClotaiHDHkpvR9Xe3jzIkSe-Kn-6BTFEUQ8AgHoP0-JM205jdKqmFpaR6Tz88JBnKuFuiFMKH3tFhiryrFok28B9KVkchR0XZZycEZFAF3SE2cmK7aFW8s2ILAV5AKqub~e~NjxJpI4iqrvuesXhdb6O~0B-jq3jtC-iaaQwrCNYY3b3nUREaHKZV-5vFRiwrUokmM1v6picag5oeNTE~IbvgAlvAxql8sLsSQnNDqt9qoGrcxbwdG0EfVUuLBtSyf9z-AX~uC0Ez-RAnJn5IId9UIE7OIPK~S6lPgW2i3IK82i87vTMKZf0CtuKc0Pw4Tv9RKGl~jLstKjEuKs1pw__", alt="")
+                    img(width="215px" src="/assets/info.png", alt="")
+                .cart 
+                    img(width="90%" src="https://s3-alpha-sig.figma.com/img/e7b9/5106/8ae46413e052dfe6c9555202d46c3e91?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClotaiHDHkpvR9Xe3jzIkSe-Kn-6BTFEUQ8AgHoP0-JM205jdKqmFpaR6Tz88JBnKuFuiFMKH3tFhiryrFok28B9KVkchR0XZZycEZFAF3SE2cmK7aFW8s2ILAV5AKqub~e~NjxJpI4iqrvuesXhdb6O~0B-jq3jtC-iaaQwrCNYY3b3nUREaHKZV-5vFRiwrUokmM1v6picag5oeNTE~IbvgAlvAxql8sLsSQnNDqt9qoGrcxbwdG0EfVUuLBtSyf9z-AX~uC0Ez-RAnJn5IId9UIE7OIPK~S6lPgW2i3IK82i87vTMKZf0CtuKc0Pw4Tv9RKGl~jLstKjEuKs1pw__", alt="")
+                    img(width="215px" src="/assets/info.png", alt="")
+                .cart 
+                    img(width="90%" src="https://s3-alpha-sig.figma.com/img/e7b9/5106/8ae46413e052dfe6c9555202d46c3e91?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClotaiHDHkpvR9Xe3jzIkSe-Kn-6BTFEUQ8AgHoP0-JM205jdKqmFpaR6Tz88JBnKuFuiFMKH3tFhiryrFok28B9KVkchR0XZZycEZFAF3SE2cmK7aFW8s2ILAV5AKqub~e~NjxJpI4iqrvuesXhdb6O~0B-jq3jtC-iaaQwrCNYY3b3nUREaHKZV-5vFRiwrUokmM1v6picag5oeNTE~IbvgAlvAxql8sLsSQnNDqt9qoGrcxbwdG0EfVUuLBtSyf9z-AX~uC0Ez-RAnJn5IId9UIE7OIPK~S6lPgW2i3IK82i87vTMKZf0CtuKc0Pw4Tv9RKGl~jLstKjEuKs1pw__", alt="")
+                    img(width="215px" src="/assets/info.png", alt="")
+                .cart 
+                    img(width="90%" src="https://s3-alpha-sig.figma.com/img/e7b9/5106/8ae46413e052dfe6c9555202d46c3e91?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClotaiHDHkpvR9Xe3jzIkSe-Kn-6BTFEUQ8AgHoP0-JM205jdKqmFpaR6Tz88JBnKuFuiFMKH3tFhiryrFok28B9KVkchR0XZZycEZFAF3SE2cmK7aFW8s2ILAV5AKqub~e~NjxJpI4iqrvuesXhdb6O~0B-jq3jtC-iaaQwrCNYY3b3nUREaHKZV-5vFRiwrUokmM1v6picag5oeNTE~IbvgAlvAxql8sLsSQnNDqt9qoGrcxbwdG0EfVUuLBtSyf9z-AX~uC0Ez-RAnJn5IId9UIE7OIPK~S6lPgW2i3IK82i87vTMKZf0CtuKc0Pw4Tv9RKGl~jLstKjEuKs1pw__", alt="")
+                    img(width="215px" src="/assets/info.png", alt="")
+        footer 
+            .footer__first 
+                ul 
+                    li Компания
+                    li О нас
+                    li Реквизиты
+                    li Контакты
+                    li Новости
+                    li Вакансии
+                ul 
+                    li Юридическим лицам
+                    li Оформление заказа
+                    li Публичная оферта
+                    li Подключение магазина
+                    li Партнерство
+                    li Реклама
+                ul 
+                    li Реклама
+                    li Доставка
+                    li Оплата
+                    li Как заказать
+                    li Безопасность
+                    li Обмен и возврат  
+                div     
+                    img(src="/assets/facebook.png", alt="")
+                    img(src="/assets/telegram-1.png", alt="")
+                    img(src="/assets/telegram.png", alt="")
+                img( width="300px" height="100px" src="/assets/play.png", alt="")
+            .footer__second 
+                p Подпишитесь на наши соц. сети
+                p Получайте самые свежие новости о нас
