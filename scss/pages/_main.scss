@@ -1,0 +1,156 @@
+.container {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.main-top-cards {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+
+  h4 {
+    font-size: 24px;
+    height: 20px;
+    font-weight: 400;
+  }
+  p {
+    margin-left: auto;
+    color: #ffae00;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.5px;
+  }
+
+  .pprr{
+    color: #222;
+  }
+
+  span{
+    color: #ffae00;
+  }
+}
+.main-card-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .imges-card3 {
+    margin-bottom: 65px;
+  }
+
+
+  .imges-card33{
+    margin-bottom: 30px;
+  }
+
+  .imges-card2{
+    margin-bottom: 50px;
+  }
+
+  .imges-card44{
+    margin-bottom: 40px;
+  }
+
+  .imges-card4 {
+    margin-bottom: 100px;
+  }
+
+  .imges-card55{
+    margin-bottom: 50px;
+  }
+  .imges-card5 {
+    margin-bottom: 20px;
+  }
+
+  .imges-card6 {
+    margin-bottom: 40px;
+  }
+
+  .imges-card66{
+    margin-bottom: 70px;
+  }
+}
+.main-card {
+  img {
+    margin-bottom: 10px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    gap: 10px;
+    h4 {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+    }
+    p {
+      color: dimgray;
+    }
+  }
+}
+
+.sale {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  .kitekat {
+    padding: 15px;
+    width: 600px;
+    height: 193px;
+    background-image: url(../../Assets/kitekat.png);
+    background-color: #27ae60;
+    background-position: 150px;
+    background-repeat: no-repeat;
+    h4 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      height: 20px;
+    }
+    p {
+      color: #fff;
+    }
+    button {
+      margin-top: 40px;
+      border-radius: 10px;
+      color: #27ae60;
+      border: none;
+      padding: 10px 30px;
+    }
+  }
+
+  .salecha {
+    text-align: center;
+    width: 600px;
+    height: 220px;
+    background-image: url(../../Assets/salecha.png);
+
+    h3 {
+      color: #fff;
+      font-size: 40px;
+      height: 20px;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    p{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+  }
+}
+
+.shirt {
+    img{
+        width: 1380px;
+        display: flex;
+        justify-content: center;
+    }
+}
