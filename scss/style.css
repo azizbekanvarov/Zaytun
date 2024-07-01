@@ -136,7 +136,7 @@ header {
   align-items: center;
 }
 .header___first-box img {
-  width: 40%;
+  width: 120px;
   padding-right: 30px;
 }
 .header___first-box .translate__first-box {
@@ -145,7 +145,7 @@ header {
 }
 .header___first-box .translate__first-box a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
   color: #FFAE00;
   font-weight: 450;
 }
@@ -237,8 +237,8 @@ header {
   padding: 0;
   margin: 0;
   margin-top: -7.7px;
-  width: 101.42%;
-  height: 50px;
+  width: 146.16%;
+  height: 80px;
   background-color: #FFF45F;
   margin-left: -7.7px;
   display: flex;
@@ -252,10 +252,10 @@ header {
   align-items: center;
 }
 .reklam__bar div button {
-  width: 110px;
+  width: 170px;
   margin-right: 10px;
-  height: 27px;
-  font-size: 10px;
+  height: 37px;
+  font-size: 14px;
   text-align: center;
   font-weight: 550;
   background-color: #ffffff;
@@ -274,9 +274,9 @@ header {
   margin-left: 20px;
 }
 .reklam-bar__music-box img {
-  width: 90px;
+  width: 110px;
   margin-left: -63px;
-  margin-top: 9px;
+  margin-top: 29px;
 }
 
 .special-music-box {
@@ -286,12 +286,13 @@ header {
   margin-right: 20px;
 }
 .special-music-box img {
-  width: 90px;
+  width: 120px;
   margin-left: -75px;
-  margin-top: 19px;
+  margin-top: 40px;
 }
 .special-music-box .special-first {
-  margin-top: 20px;
+  margin-top: 41px;
+  margin-right: -20px;
 }
 
 .about-div-reklam {
@@ -315,8 +316,8 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  width: 140px;
-  font-size: 12px;
+  width: 180px;
+  font-size: 18px;
   font-weight: 500;
   background-color: transparent;
   border: none;
@@ -326,24 +327,24 @@ nav {
 }
 .navbar__katalog div {
   display: flex;
-  gap: 12px;
+  gap: 20px;
   align-items: center;
 }
 .navbar__katalog div a {
-  font-size: 12px;
+  font-size: 18px;
   text-decoration: none;
   color: #000000;
   font-weight: 500;
 }
 
 .navbar__swiper-slide img {
-  width: 925px;
+  width: 1400px;
 }
 
 .navbar-our-katalog {
   display: flex;
   align-items: center;
-  gap: 17px;
+  gap: 38px;
   margin-top: 20px;
   margin: 0 0px;
 }
@@ -356,7 +357,7 @@ nav {
   transition: all 1s ease-in-out;
 }
 .navbar-our-katalog button img {
-  width: 90px;
+  width: 130px;
   display: inline-block;
 }
 .navbar-our-katalog button p {
