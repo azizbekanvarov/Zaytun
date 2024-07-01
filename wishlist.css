@@ -1,1 +1,72 @@
+<<<<<<< HEAD
+nav {
+  margin: 0 60px;
+  padding: 0;
+  font-family: "graphik";
+}
+
+.navbar__katalog {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  align-items: center;
+}
+.navbar__katalog button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 140px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+}
+.navbar__katalog img {
+  width: 400px;
+}
+.navbar__katalog div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.navbar__katalog div a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar__swiper-slide img {
+  width: 925px;
+}
+
+.navbar-our-katalog {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 20px;
+  margin: 0 0px;
+}
+.navbar-our-katalog button {
+  border: none;
+  background-color: transparent;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+.navbar-our-katalog button img {
+  width: 90px;
+  display: inline-block;
+}
+.navbar-our-katalog button p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.navbar-our-katalog button:hover {
+  transform: translateY(-5px);
+}/*# sourceMappingURL=wishlist.css.map */
+=======
 /*# sourceMappingURL=wishlist.css.map */
+>>>>>>> 9495a555e6db57e4adc25f9ae93265bdad182c27
