@@ -14,13 +14,15 @@ header {
     align-items: center;
     display: flex;
     margin: 5px 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .header___first-box {
         display: flex;
         align-items: center;
        
         img {
-            width: 120px; 
+            width: 160px; 
             padding-right: 30px;
         }
         .translate__first-box {
@@ -28,7 +30,7 @@ header {
             gap: 5px;
             a {
                 text-decoration: none;
-                font-size: 18px;
+                font-size: 24px;
                 color: #FFAE00;
                 font-weight: 450;
             }
@@ -44,7 +46,7 @@ header {
  font-weight: 440;
 }
 .header__search-bar   {
-    width: 370px; 
+    width: 570px; 
     display: grid;
     grid-template-columns: auto;
 }
@@ -53,18 +55,19 @@ header {
    border: 1.5px solid #FFAE00 ;
    align-items: center;
    border-radius: 5px;
-   height: 25px;
+   height: 35px;
    input {
-    width: 300px;
+    width: 470px;
     height: 20px;
     border: none;
     outline: none;
    }
    button {
-    width: 70px;
-    height: 25px;
+    width: 100px;
+    height: 33px;
     background-color: #FFAE00;
     border: none;
+    font-size: 16px;
    }
 }
 .header__profil-box {
@@ -76,7 +79,7 @@ header {
 .profil-box__conteiner  {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
    button {
     display: flex;
     justify-content: center;
@@ -84,18 +87,18 @@ header {
     border-radius: 50px;
     background-color: #FFF45F;
     border: none;
-    height: 32px;
-    width: 32px;
+    height: 47px;
+    width: 47px;
    }
    div {
-    line-height: 0.2;
     margin-top: 10px;
+    line-height: 1.2;
       span {
-        font-size: 10px;
+        font-size: 18px;
         font-weight: 550;
       }
       p {
-        font-size: 10px;
+        font-size: 16px;
       }
    }
 }
@@ -112,7 +115,7 @@ header {
     padding: 0;
     margin: 0;
     margin-top: -7.7px;
-    width: 146.16%;
+    width: 105.2%;
     height: 80px;
     background-color: #FFF45F;
     margin-left: -7.7px;
