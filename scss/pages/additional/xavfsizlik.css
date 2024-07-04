@@ -257,4 +257,81 @@ footer .footer__second {
 footer .footer__second p {
   color: white;
   font-size: 12px;
+}
+
+.overlay, .overlay__second, .overlay__third {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal, .modal__second, .modal__third {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal h3, .modal__second h3, .modal__third h3 {
+  font-weight: 100;
+}
+.modal p, .modal__second p, .modal__third p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.modal div, .modal__second div, .modal__third div {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #FFAE00;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.modal div p, .modal__second div p, .modal__third div p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.modal div h5, .modal__second div h5, .modal__third div h5 {
+  font-weight: 100;
+}
+.modal button, .modal__second button, .modal__third button {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #FFAE00;
+  background-color: #FFAE00;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.modal-icon {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=xavfsizlik.css.map */
