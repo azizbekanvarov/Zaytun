@@ -3,7 +3,7 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
-        link(rel="stylesheet" href="/scss/pages/xavfsizlik.css")
+        link(rel="stylesheet" href="/scss/pages/additional/xavfsizlik.css")
         title Zaytun 
     body 
         nav 
@@ -97,20 +97,20 @@ html(lang="en")
                             span 
                                 h4 Персональные данные
                                 h3 Имя, дата рождения, пол
-                            p Редактировать
+                            p(onclick="toggleModal()" style="cursor: pointer;") Редактировать
                         div 
                             span 
                                 h4 Номер телефона
                                 h3 +998 90 *** ** 22
-                            p Редактировать
+                            p(style="cursor: pointer;" onclick="toggleModal__second()") Редактировать
                         div 
                             span 
                                 h4 Электронная почта
                                 h3(style="opacity: .1;") Не указана
-                            p Редактировать
+                            p(style="cursor: pointer;" onclick="toggleModal__third()" ) Редактировать
                     .device 
-                        div Выйти на всех устройствах
-                        div Изменить пароль
+                        div(style="color: #FFAE00;") Выйти на всех устройствах
+                        div(style="color: #FFAE00;") Изменить пароль
         footer 
             .footer__first 
                 ul 
@@ -142,3 +142,44 @@ html(lang="en")
             .footer__second 
                 p Подпишитесь на наши соц. сети
                 p Получайте самые свежие новости о нас
+
+        div.overlay.hidden
+            div.modal(style="height: 26rem")
+                h3 Редактировать
+                p Персональные данные
+                div 
+                    p Имя
+                    h5 Антон Павлов
+                div(style="border-color: #DAE0E5;") 
+                    p Дата рождения
+                div(style="border: none; padding: 0;") 
+                    p Пол
+                    div(style="border:none; display: flex; flex-direction: row; gap: 40px; margin-top: 10px;") 
+                        span(style="display: flex; align-items: center;")
+                            input(type="radio")
+                            label(for="radio" style="font-size: 14px;") Мужской
+                        span(style="display: flex; align-items: center;")
+                            input(type="radio")
+                            label(for="radio" style="font-size: 14px;") Женский
+                button Далее
+                img(onclick="toggleModal()").modal-icon(width="15" height="15" src="https://img.icons8.com/ios/20000000000000/ffffff/delete-sign--v1.png" alt="delete-sign--v1")
+        div.overlay__second.hidden
+            div.modal__second                h3 Редактировать
+                p Номер телефона
+                div 
+                    p Текущий номер телефона
+                    h5 +998 90 900 09 22 
+                div(style="border-color: #DAE0E5;") 
+                    p Новый номер телефона
+                button Далее
+                img(onclick="toggleModal__second()").modal-icon(width="15" height="15" src="https://img.icons8.com/ios/20000000000000/ffffff/delete-sign--v1.png" alt="delete-sign--v1")
+        div.overlay__third.hidden
+            div.modal__third(style="height: 10rem;")
+                h3 Редактировать
+                p Электронную почту
+                div 
+                    p Электронная почта
+                    h5 anton@gmail.com
+                button Далее
+                img(onclick="toggleModal__third()").modal-icon(width="15" height="15" src="https://img.icons8.com/ios/20000000000000/ffffff/delete-sign--v1.png" alt="delete-sign--v1")
+        script(src="../../js/modal.js") 
