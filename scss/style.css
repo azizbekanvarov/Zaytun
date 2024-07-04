@@ -327,7 +327,7 @@ header {
   padding: 0;
   margin: 0;
   margin-top: -7.7px;
-  width: 105.2%;
+  width: 1590px;
   height: 80px;
   background-color: #FFF45F;
   margin-left: -7.7px;
@@ -601,29 +601,29 @@ nav {
   transform: translateY(-5px);
 }
 
-aside {
+.company-aside {
   height: 600px;
   margin-left: 60px;
   font-family: "Graphik";
 }
-aside span {
+.company-aside span {
   font-size: 28px;
   display: inline-block;
   font-weight: 500;
   margin-bottom: 20px;
 }
-aside div p {
+.company-aside div p {
   font-size: 22px;
   margin-top: 15px;
   margin-bottom: 20px;
   font-weight: 500;
 }
-aside div div {
+.company-aside div div {
   display: grid;
   grid-template-columns: auto;
   row-gap: 10px;
 }
-aside div div a {
+.company-aside div div a {
   text-decoration: none;
   font-size: 18px;
   color: #8E969E;
@@ -631,7 +631,7 @@ aside div div a {
   display: inline-block;
 }
 
-section {
+.company-hero__section {
   display: grid;
   grid-template-columns: auto;
   row-gap: 50px;
@@ -639,17 +639,17 @@ section {
   margin-top: -595px;
   margin-left: 350px;
 }
-section span {
+.company-hero__section span {
   font-size: 24px;
   font-weight: 550;
 }
-section p {
+.company-hero__section p {
   width: 1200px;
   font-size: 20px;
   font-weight: 0;
   line-height: 1.3;
 }
-section img {
+.company-hero__section img {
   width: 1200px;
   margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
