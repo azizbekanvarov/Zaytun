@@ -1,0 +1,153 @@
+.p{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size: 18px;
+
+}
+body{
+    overflow-x: hidden;
+}
+.img{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.p2{
+    color: grey;
+    position: relative;
+    left: 170px;
+    top: 65px;
+}
+.img2{
+    position: relative;
+    left: 50px;
+    top: 100px; 
+}
+.img3{
+    position: relative;
+    top: 220px;
+    left: -22px;
+}
+.img4{
+    position: relative;
+    top: 322px;
+    left: -92px;
+}.img5{
+    position: relative;
+    top: 422px;
+    left: -170px;
+}
+.img6{
+    position: relative;
+    left: 150px;
+}
+.p3{
+    position: relative;
+    left: 600px;
+    top: -450px;
+}
+.btn{
+    color: grey;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    top: -450px;
+}
+.btn2{
+    color: rgb(56, 52, 52);
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    top: -450px;
+}
+.p4{
+    position: relative;
+    left: 600px;
+    top: -450px;
+}
+.p5{
+    position: relative;
+    left: 600px;
+    top: -450px;
+    color: grey;
+}
+.py{
+    position: relative;
+    top: -790px;
+    left: 800px;
+}
+.pb{
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 50px;
+  top: 65px;
+
+   
+}
+.pb1{
+    color: grey;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.by{
+    width: 270px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+   left: 40px;
+   top: 80px;
+
+}
+.box{
+    width: 340px;
+    height: 250px;
+    border: 1px solid grey;
+    position: relative;
+    left: 950px;
+    top: -1220px;
+}
+.img__b{
+    position: relative;
+    top: -80px;
+    left: -220px;
+}
+.pb2{
+    position: relative;
+    top: -140px;
+    left: 100px;
+}
+.hr{
+    width: 280px;
+    position: relative;
+    top: 70px;
+}
+.pd{
+    font-size: 20px;
+    position: relative;
+    left: 1000px;
+    top: -1200px;
+}
+.md{
+    position: relative;
+    top: -1200px;
+    left: 1000px;
+}
+.pd1{
+    position: relative;
+    left: 1050px;
+    top: -1240px;
+
+}
